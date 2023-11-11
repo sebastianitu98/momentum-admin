@@ -1,0 +1,9 @@
+.nav-button {
+    height: 30px;
+    border: 2px solid salmon;
+    border-radius: 10px;
+    padding: 10px 10px;
+    align-items: center;
+    height: fit-content;
+    font-size: 20px;
+}

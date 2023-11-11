@@ -1,0 +1,39 @@
+.episodeElement {
+    background-color: #6C7255;
+    padding: 25px 20px 10px 20px;
+    min-height: 300px;
+    max-width: 600px;
+    margin-top: 8px;
+    border-radius: 10px;
+    font-size: 40px;
+    border: 2px solid white;
+}
+
+.episodeImg {
+    margin-bottom: 8px;
+}
+
+.episode-title {
+    height: 50px;
+    overflow: hidden;
+}
+
+.episodeElementLinks {
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1700px) {
+
+    .episodeElementLinks {
+        justify-content: space-around;
+    }
+
+}
+
+@media only screen and (max-width: 930px) {
+    .episodeElement {
+        max-width: 300px;
+        margin: 10px auto;
+        font-size: 20px;
+    }
+}
